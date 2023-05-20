@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Contacts Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=IBM+Plex+Mono:ital@1&family=Martian+Mono:wght@300&family=Mountains+of+Christmas:wght@700&family=Press+Start+2P&family=Quantico&family=Rubik+Mono+One&family=VT323&display=swap" rel="stylesheet">
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Kenia&family=Libre+Barcode+39&family=Libre+Barcode+39+Extended+Text&family=Love+Ya+Like+A+Sister&family=Luxurious+Roman&family=Macondo&family=Merienda:wght@900&family=Nabla&family=Press+Start+2P&family=Rubik+80s+Fade&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=IBM+Plex+Mono:ital@1&family=Martian+Mono:wght@300&family=Mountains+of+Christmas:wght@700&family=Press+Start+2P&family=Quantico&family=Rubik+Mono+One&family=VT323&display=swap');
+
+body{
+    margin:0;
+    background-image:url("AboutMeBackground.jpg");
+    overflow: hidden;
+    background-size:cover;
+}
+
+#titleBorder{
+    margin:10px;
+    border:2px solid white;
+    background-image:radial-gradient(white, rgba(88, 27, 220, 0.25));
+    border-radius:15px;
+}
+       
+#titleHead{
+    text-align:center;
+    font-family:'Quantico';
+    font-size:45px;
+    margin:0px;
+    padding:5px;
+}
+
+#navBar{
+    display:flex;
+    justify-content:space-around;
+    margin-top:0%;
+    position:fixed;
+    right:0;
+    left:0;
+    top:94.25%;
+    z-index:5;
+}
+
+.bttnSet{
+    width:25%;
+    border:none;
+    background-color:transparent;
+    border-radius:0;
+
+    font-family: 'IBM Plex Mono', monospace;
+    font-size:20px;
+
+    padding:10px;
+    color: white;
+    text-align: center;
+}
+
+#BttnMain{
+    text-shadow:white 0px 0px 10px;
+    font-weight:600;
+}
+
+.border{
+    border:1px solid black;
+    background-color:rgba(215, 43, 43, 0.25);
+    transition: ease 0.5s;
+}
+
+p{
+    margin-top:5%;
+    text-align:center;
+    color:white;
+    text-shadow:white 0px 0px 2px;
+}
+
+</style>
+
+</head>
+<body>
+
+    <h1 id="titleHead"><div id="titleBorder">Contacts</div></h1>
+
+<p>no lol</p>
+    <div id="navBar">
+        <button class="bttnSet" onclick="document.location='https://novahawkins.github.io/Portfolio-Main-Page/'"><div class="border" id="BttnMain"><b>Home</b></div></button>
+            <button class="bttnSet" onclick="document.location='https://novahawkins.github.io/Portfolio-Project-Page/'"><div class="border">Projects</div></button>
+            <button class="bttnSet" onclick="document.location='https://novahawkins.github.io/Portfolio-About-Page/'"><div class="border">About Me</div></button>
+            <button class="bttnSet" onclick="document.location='https://novahawkins.github.io/Portfolio-Contact-Page/'"><div class="border">Contacts</div></button>
+    </div>
+</body>
+</html>
